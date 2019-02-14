@@ -1,0 +1,27 @@
+{
+  "name": "module-alias-aws-lambda",
+  "version": "1.0.0",
+  "description": "Testing module-alias on aws-lambda",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kehrlann/module-alias-aws-lambda.git"
+  },
+  "keywords": [
+    "test",
+    "module-alias",
+    "lambda"
+  ],
+  "author": "Daniel Garnier-Moiroux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kehrlann/module-alias-aws-lambda/issues"
+  },
+  "homepage": "https://github.com/Kehrlann/module-alias-aws-lambda#readme",
+  "dependencies": {
+    "module-alias": "^2.2.0"
+  },
+  "_moduleAliases": {
+    "@deep": "src/some/deep"
+  }
+}
